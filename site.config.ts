@@ -11,14 +11,14 @@ export default siteConfig({
   // basic site info (required)
   name: 'Think-01',
   domain: 'think-01.com',
-  author: 'Johannes Mosig',
+  author: 'Think-01',
 
   // open graph metadata (optional)
   description: '志于道,据于德,依于仁,游于艺。',
 
   // social usernames (optional)
   twitter: null,
-  github: 'zhoh008',
+  github: 'zhaoh008',
   linkedin: null,
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '0524635e702a448e9b48fc500fb7ddde'
+    },
+    {
+      title: 'Contact',
+      pageId: '13510fbfbb464ff28dcd06c63081495c'
+    }
+  ]
 })
